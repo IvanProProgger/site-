@@ -6,12 +6,25 @@
 
 {% block body %}
 <div class="container mt-5">
-     <h1>Добавление теста</h1>
+     <h1>Добавление отзыва</h1>
      <form method="post">
-         <input type="text" name="title" id="title" class="form-control"><br>
+         <label for="exampleFormControlInput1" class="form-label">Email address</label>
+         <input type="email" name="title" id="title" class="form-control" placeholder="name@example.com"><br>
+         <label for="exampleFormControlInput1" class="form-label">Название фильма</label>
          <textarea name="intro" id="intro" class="form-control"></textarea><br>
+         <label for="exampleFormControlInput1" class="form-label">Отзыв</label>
          <textarea name="text" id="text" class="form-control"></textarea><br>
          <input type="submit" name="title" class="btn btn-success" value="Отправить">
      </form>
 </div>
 {% endblock %}
+
+
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>

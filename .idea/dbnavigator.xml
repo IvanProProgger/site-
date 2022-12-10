@@ -20,6 +20,8 @@
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="f26ffbd3-1756-4f3a-a532-2708902f8071" dataset="information_schema.sql_sizing" active-filter-id="" />
+    <filter-actions connection-id="f26ffbd3-1756-4f3a-a532-2708902f8071" dataset="information_schema.sql_parts" active-filter-id="" />
     <filter-actions connection-id="f26ffbd3-1756-4f3a-a532-2708902f8071" dataset="information_schema.sql_features" active-filter-id="" />
     <filter-actions connection-id="f26ffbd3-1756-4f3a-a532-2708902f8071" dataset="information_schema.sql_implementation_info" active-filter-id="" />
   </component>
